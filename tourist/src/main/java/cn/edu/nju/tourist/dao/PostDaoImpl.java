@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 public class PostDaoImpl implements PostDao {
     @Override
     public void addPost(Post post) {
-        
+
     }
 }

@@ -5,6 +5,8 @@ import cn.edu.nju.tourist.dao.PostDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * PostServiceImpl
  *
@@ -19,5 +21,10 @@ public class PostServiceImpl implements PostService{
     @Override
     public void addPost(Post post) {
         postDao.addPost(post);
+    }
+
+    @Override
+    public List<Post> findRecent() {
+        return postDao.findRecnet();
     }
 }

@@ -22,16 +22,13 @@ public class Postcontroller {
         return "addpost";
     }
 
-    public Postcontroller() {
-        super();
-    }
-
     @PostMapping("/post")
     public String addPost(Post post){
 
         System.out.println(post);
         postService.addPost(post);
         //重定向到首页
-        return "redirect:/test";
+        return "redirect:/test2";
     }
+
 }

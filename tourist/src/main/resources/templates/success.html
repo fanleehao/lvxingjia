@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Success</title>
+    <link href="/css/signin.css" rel="stylesheet">
 </head>
 <body>
 <h1>--Success--</h1>
 <!-- th:text 设置div内的文本内容-->
 <!-- th:任意属性 改变任意属性的值-->
-<div th:text="${Success}"></div>
+<div>
+    <a href="/authority/toIndex" th:text="${msg}" style="color: #721c24"></a>
+    <a href="/user/info">个人信息</a>
+</div>
 
 </body>
 </html>

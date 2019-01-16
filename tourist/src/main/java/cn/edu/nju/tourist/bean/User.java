@@ -1,7 +1,9 @@
 package cn.edu.nju.tourist.bean;
 
 
+
 import java.util.Date;
+
 
 public class User {
     private int userId;

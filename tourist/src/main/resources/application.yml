@@ -1,10 +1,14 @@
-server:
-  port: 8081
 spring:
   datasource:
-    url: jdbc:mysql://25.144.147:3306/tourist
-    name: root
+    url: jdbc:mysql://118.25.144.147:3306/tourist
+    username: root
     password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
   thymeleaf:
+    mode: LEGACYHTML5
     cache: false
+    # Controller控制跳转的页面路径
+    prefix: classpath:/templates/
+mybatis:
+  type-aliases-package: cn.edu.nju.tourist.bean

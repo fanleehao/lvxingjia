@@ -16,6 +16,7 @@ public class HelloController {
     }
 
     @RequestMapping("/success")
+    @ResponseBody
     public String success(Map<String,String> map){
         map.put("Success","成功");
         return "success";

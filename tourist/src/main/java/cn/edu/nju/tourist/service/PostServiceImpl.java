@@ -27,4 +27,9 @@ public class PostServiceImpl implements PostService{
     public List<Post> findRecent() {
         return postDao.findRecnet();
     }
+
+    @Override
+    public Post findById(Integer id) {
+        return postDao.findById(id);
+    }
 }

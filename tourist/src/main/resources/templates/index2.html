@@ -173,12 +173,12 @@
 					<div th:each="po :${list}" class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a th:href="@{/post}"><img th:src="${po.post_images}" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a th:href="@{/single/} + ${po.id}"><img th:src="${po.post_images != null} ? ${po.post_images}:${'image/img_bg_3.jpg'}" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
 									<span class="cat"><a href="#">浏览</a></span>
-									<span class="date" th:text="${#dates.format(po.post_time, 'yyyy-mm-dd')}"></span>
+									<span class="date" th:text="${#dates.format(po.post_time, 'YYYY-MM-DD')}"></span>
 									<span class="pos">By <a href="#" th:text="${po.user_name}"></a></span>
 								</p>
 								<h2><a href="blog.html">[[${po.post_title}]]</a></h2>

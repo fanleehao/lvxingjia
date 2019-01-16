@@ -37,9 +37,19 @@ public class PostDaoImpl implements PostDao {
     public List<Post> findRecnet() {
         String sql = "select * from post order by post_time desc limit 6";
         List<Post> list = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Post.class));
-        for (Post po: list ) {
-            System.out.println(po);
-        }
+//        for (Post po: list ) {
+//            System.out.println(po);
+//        }
         return list;
+    }
+
+    @Override
+    public Post findById(Integer id) {
+        String sql = "select * from post where id = :id";
+        Map<String,Object> map = new HashMap<>();
+        map.put("id", id);
+        Post post = jdbcTemplate.queryForObject(sql, map, new BeanPropertyRowMapper<Post>(Post.class));
+        //System.out.println(post);
+        return post;
     }
 }

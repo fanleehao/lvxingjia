@@ -8,4 +8,6 @@ public interface PostDao {
     public void addPost(Post post);
 
     List<Post> findRecnet();
+
+    Post findById(Integer id);
 }

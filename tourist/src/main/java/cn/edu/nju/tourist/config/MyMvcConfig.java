@@ -45,8 +45,8 @@ public class MyMvcConfig implements WebMvcConfigurer {
         return wmc;
     }
 
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        //registry.addResourceHandler("/image/**").addResourceLocations("classpath:/image/");
-    }
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        //registry.addResourceHandler("/image/**").addResourceLocations("classpath:/image/");
+//    }
 }

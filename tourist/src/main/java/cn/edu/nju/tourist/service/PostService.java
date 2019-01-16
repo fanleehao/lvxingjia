@@ -9,4 +9,6 @@ public interface PostService {
     public void addPost(Post post);
 
     List<Post> findRecent();
+
+    Post findById(Integer id);
 }

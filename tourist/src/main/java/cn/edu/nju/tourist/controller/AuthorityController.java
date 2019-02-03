@@ -44,7 +44,7 @@ public class AuthorityController {
 
     @RequestMapping("/toSignUp")
     public String signUp() {
-        return "test";
+        return "/signup";
     }
 
     @RequestMapping("/toIndex")

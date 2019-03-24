@@ -1,0 +1,34 @@
+
+tcn.edu.nju.tourist.controller.AuthorityController#noAuthentication(Lorg/springframework/ui/Model;)Ljava/lang/String;
+__unknown_file ("paramAnnotations*˜
+paramAnnotationsi
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaF" F(/å
+â
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaE E(
+%1"
+__annotate*:8
+6org.springframework.web.bind.annotation.RequestMapping*'
+%
+modelorg.springframework.ui.Model«
+¨
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaF) F(.%
+modelorg.springframework.ui.Model"__annotation*
+
+%1*
+1*ø
+1i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaG G(‹ˆ
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaG G(/"
+%0org.springframework.ui.Model"morg.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;*'
+%
+modelorg.springframework.ui.Model*
+msg*" 
+æ‚¨æ²¡æœ‰æƒé™è®¿é—®è¯¥é¡µé¢22addAttribute(Ljava/lang/String;Ljava/lang/Object;)"z
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javaH H(
+	forbidden:%
+modelorg.springframework.ui.ModelB53
+1cn.edu.nju.tourist.controller.AuthorityController

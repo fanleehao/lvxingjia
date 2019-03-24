@@ -1,0 +1,39 @@
+
+ìcn.edu.nju.tourist.shiro.UserRealm#doGetAuthorizationInfo(Lorg/apache/shiro/subject/PrincipalCollection;)Lorg/apache/shiro/authz/AuthorizationInfo;
+__unknown_file ("paramAnnotations*É
+paramAnnotationsZ
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java6 (_–
+Õ
+Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
+%2"
+__annotate*
+java.lang.Override*E
+C
+principalCollection,org.apache.shiro.subject.PrincipalCollection∫
+∑
+Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.javaK (^C
+principalCollection,org.apache.shiro.subject.PrincipalCollection"__annotation*
+
+%2*
+1*¬
+1Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (à
+Ö
+Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
+%0java.io.PrintStream"__id*
+""ÔÏ
+Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java ($
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+ÊâßË°åÊéàÊùÉÈÄªËæë2println(Ljava/lang/String;)"d
+Z
+PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
+"":C
+principalCollection,org.apache.shiro.subject.PrincipalCollectionB&$
+"cn.edu.nju.tourist.shiro.UserRealm

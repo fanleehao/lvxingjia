@@ -39,12 +39,12 @@ public class AuthorityController {
 
     @RequestMapping("/toSignIn")
     public String toSignIn() {
-        return "/signin";
+        return "signin";
     }
 
     @RequestMapping("/toSignUp")
     public String signUp() {
-        return "/signup";
+        return "signup";
     }
 
     @RequestMapping("/toIndex")

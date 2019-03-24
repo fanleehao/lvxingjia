@@ -30,7 +30,7 @@ public class Postcontroller {
         System.out.println(post);
         postService.addPost(post);
         //重定向到首页
-        return "redirect:/test2";
+        return "redirect:/index2";
     }
 
     //查看页

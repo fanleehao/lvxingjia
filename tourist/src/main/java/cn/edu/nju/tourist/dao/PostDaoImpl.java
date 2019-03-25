@@ -29,7 +29,7 @@ public class PostDaoImpl implements PostDao {
         Map<String, Object> param = new HashMap<>();
         param.put("post_title", post.getPost_title());
         param.put("post_context", post.getPost_context());
-        System.out.println("success");
+        //System.out.println("success");
         jdbcTemplate.update(sql, param);
     }
 

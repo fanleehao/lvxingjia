@@ -181,8 +181,8 @@
 									<span class="date" th:text="${#dates.format(po.post_time, 'YYYY-MM-DD')}"></span>
 									<span class="pos">By <a href="#" th:text="${po.user_name}"></a></span>
 								</p>
-								<h2><a href="blog.html">[[${po.post_title}]]</a></h2>
-								<p th:text="${#strings.substring(po.post_context, 0, 10)} + '...'"></p>
+								<h2><a th:href="@{/single/} + ${po.id}">[[${po.post_title}]]</a></h2>
+								<p th:text="${#strings.substring(po.post_context, 5, po.post_context.length() > 15 ? 15 : po.post_context.length())} + '...'"></p>
 							</div>
 						</div>
 					</div>

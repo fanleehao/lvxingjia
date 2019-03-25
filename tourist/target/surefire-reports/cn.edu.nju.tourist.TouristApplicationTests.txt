@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cn.edu.nju.tourist.TouristApplicationTests
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.995 s - in cn.edu.nju.tourist.TouristApplicationTests
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.054 s - in cn.edu.nju.tourist.TouristApplicationTests
->>>>>>> master
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.761 s - in cn.edu.nju.tourist.TouristApplicationTests

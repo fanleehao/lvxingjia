@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tourist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" th:href="@{/css/animate.css}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" th:href="@{/css/icomoon.css}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" th:href="@{/css/magnific-popup.css}">
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" th:href="@{/css/flexslider.css}">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" th:href="@{/css/owl.carousel.min.css}">
+    <link rel="stylesheet" th:href="@{/css/owl.theme.default.min.css}">
+
+    <!-- Flaticons  -->
+    <link rel="stylesheet" th:href="@{/fonts/flaticon/font/flaticon.css}">
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <!-- Modernizr JS -->
+    <script th:src="@{/js/modernizr-2.6.2.min.js}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script th:src="@{/js/respond.min.js}"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div class="colorlib-loader"></div>
+
+<div id="page">
+    <nav class="colorlib-nav" role="navigation">
+        <div class="top-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <div id="colorlib-logo"><a href="index.html">Tourist</a></div>
+                    </div>
+                    <div class="col-xs-10 text-right menu-1">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="has-dropdown">
+                                <a th:href="@{/post}">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="single.html">Blog Single</a></li>
+                                    <li><a href="#">Video</a></li>
+                                    <li><a href="#">Read</a></li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="event.html">Event</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <aside id="colorlib-hero">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background-image: url(/image/img_bg_1.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
+                                <div class="slider-text-inner">
+                                    <div class="desc">
+                                        <p class="meta">
+                                            <span class="cat"><a href="#">Events</a></span>
+                                            <span class="date">20 March 2018</span>
+                                            <span class="pos">By <a href="#">Rich</a></span>
+                                        </p>
+                                        <h1>How a website designer began customizing and designing</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(/image/img_bg_2.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
+                                <div class="slider-text-inner">
+                                    <div class="desc">
+                                        <p class="meta">
+                                            <span class="cat"><a href="#">Events</a></span>
+                                            <span class="date">20 March 2018</span>
+                                            <span class="pos">By <a href="#">Rich</a></span>
+                                        </p>
+                                        <h1>How a website designer began customizing and designing</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(/image/img_bg_3.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
+                                <div class="slider-text-inner">
+                                    <div class="desc">
+                                        <p class="meta">
+                                            <span class="cat"><a href="#">Events</a></span>
+                                            <span class="date">20 March 2018</span>
+                                            <span class="pos">By <a href="#">Rich</a></span>
+                                        </p>
+                                        <h1>How a website designer began customizing and designing</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url(/image/img_bg_4.jpg);">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
+                                <div class="slider-text-inner">
+                                    <div class="desc">
+                                        <p class="meta">
+                                            <span class="cat"><a href="#">Events</a></span>
+                                            <span class="date">20 March 2018</span>
+                                            <span class="pos">By <a href="#">Rich</a></span>
+                                        </p>
+                                        <h1>Top 5 Places To Start Your Vacation This Summer</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div id="colorlib-container">
+        <div class="container">
+            <div class="row row-pb-md">
+                <div th:each="po :${pageModel.list}" class="col-md-4">
+                    <div class="blog-entry">
+                        <div class="blog-img">
+                            <a th:href="@{/single/} + ${po.id}"><img
+                                    th:src="${po.post_images != null} ? @{/} + ${po.post_images}: @{/} + ${'image/img_bg_3.jpg'}"
+                                    class="img-responsive" alt="html5 bootstrap template"></a>
+                        </div>
+                        <div class="desc">
+                            <p class="meta">
+                                <span class="cat"><a href="#">浏览</a></span>
+                                <span class="date" th:text="${#dates.format(po.post_time, 'YYYY-MM-DD')}"></span>
+                                <span class="pos">By <a href="#" th:text="${po.user_name}"></a></span>
+                            </p>
+                            <h2><a th:href="@{/single/} + ${po.id}">[[${po.post_title}]]</a></h2>
+                            <p th:text="${#strings.substring(po.post_context, 5, po.post_context.length() > 15 ? 15 : po.post_context.length())} + '...'"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="pagination">
+                        <li th:class="${pageModel.currentPageNum eq 0} ? 'disabled' : ''">
+                            <a th:if="${pageModel.startPage > 0}" th:href="@{${pageModel.url} + '/' + ${pageModel.currentPageNum - 1}}">Previous</a>
+                            <a th:if="${pageModel.startPage <= 0}" href="javascript:void(0);">Previous</a>
+                        </li>
+
+                        <li th:each="pageNo : ${#numbers.sequence(0, pageModel.totalPageNum - 1)}" th:class="${pageModel.currentPageNum eq pageNo}? 'active' : ''">
+                            <a th:if="${pageModel.currentPageNum  eq pageNo}" href="javascript:void(0);">
+                                <span th:text="${pageNo + 1}"></span>
+                            </a>
+                            <a th:if="${not (pageModel.currentPageNum  eq pageNo)}" th:href="@{ ${pageModel.url} + '/' + ${pageModel.currentPageNum}}">
+                                <span th:text="${pageNo + 1}"></span>
+                            </a>
+
+                        </li>
+                        <li th:class="${pageModel.currentPageNum + 1 ge pageModel.totalPageNum} ? 'disabled' : ''">
+                            <a th:if="${pageModel.endPage <= pageModel.totalPageNum}" th:href="@{${'/indexAll/'} + ${pageModel.currentPageNum+1}}">Next</a>
+                            <a th:if="${pageModel.endPage > pageModel.totalPageNum }" href="javascript:void(0);">Next</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+</div>
+
+<!-- jQuery -->
+<script th:src="@{/js/jquery.min.js}"></script>
+<!-- jQuery Easing -->
+<script th:src="@{/js/jquery.easing.1.3.js}"></script>
+<!-- Bootstrap -->
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<!-- Waypoints -->
+<script th:src="@{/js/jquery.waypoints.min.js}"></script>
+<!-- Flexslider -->
+<script th:src="@{/js/jquery.flexslider-min.js}"></script>
+<!-- Owl carousel -->
+<script th:src="@{/js/owl.carousel.min.js}"></script>
+<!-- Magnific Popup -->
+<script th:src="@{/js/jquery.magnific-popup.min.js}"></script>
+<script th:src="@{/js/magnific-popup-options.js}"></script>
+<!-- Main -->
+<script th:src="@{/js/main.js}"></script>
+
+</body>
+</html>
+

@@ -5,6 +5,7 @@ import cn.edu.nju.tourist.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,7 +28,7 @@ public class Postcontroller {
     @PostMapping("/post")
     public String addPost(Post post){
 
-        System.out.println(post);
+        //System.out.println(post);
         postService.addPost(post);
         //重定向到首页
         return "redirect:/index2";
@@ -42,4 +43,8 @@ public class Postcontroller {
         return "single";
     }
 
+    @DeleteMapping("/delete/{id}")
+    public void deletePost(@PathVariable("id") Integer id){
+        postService.deleteById(id);
+    }
 }

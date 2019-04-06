@@ -50,11 +50,14 @@ public class UserController {
      * @return 返回用户登录后的页面（个人信息）
      */
     @RequestMapping("/info")
-    public String testIndentity() {
-        return "/user/info";
+    public String aboutMe() {
+        return "/info";
     }
 
-
+    @RequestMapping("/contact")
+    public String contactUs(){
+        return "contact";
+    }
 
 
 }

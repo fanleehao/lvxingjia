@@ -34,7 +34,7 @@ public class AuthorityController {
         } catch (IncorrectCredentialsException e) {
             model.addAttribute("msg", "密码错误");
         }
-        return "success";
+        return "redirect:/index2";
     }
 
     @RequestMapping("/toSignIn")

@@ -24,11 +24,11 @@ public class MyMvcConfig implements WebMvcConfigurer {
 
     //返回一组视图解析器
     @Bean //将组件注册到容器中
-    public WebMvcConfigurer webMvcConfigurer(){
+    public WebMvcConfigurer webMvcConfigurer() {
         WebMvcConfigurer wmc = new WebMvcConfigurer() {
             @Override
             public void addViewControllers(ViewControllerRegistry registry) {
-                registry.addViewController("/").setViewName("success");
+                registry.addViewController("/").setViewName("index");
                 registry.addViewController("/index.html").setViewName("index");
                 //registry.addViewController("/addpost.html").setViewName("addPost");
             }

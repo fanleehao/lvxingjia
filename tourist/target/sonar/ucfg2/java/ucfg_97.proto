@@ -1,0 +1,62 @@
+
+›cn.edu.nju.tourist.shiro.ShiroConfig#getDefaultWebSecurityManager(Lcn/edu/nju/tourist/shiro/UserRealm;)Lorg/apache/shiro/web/mgt/DefaultWebSecurityManager;
+__unknown_file ("paramAnnotations*ç
+paramAnnotations\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java>A >(n×
+Ô
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java= =(#
+%3"
+__annotate*/-
++org.springframework.context.annotation.Bean*1
+/
+	userRealm"cn.edu.nju.tourist.shiro.UserRealmâ
+ß
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java>B >(Y
+%4"
+__annotate*:8
+6org.springframework.beans.factory.annotation.Qualifier*1
+/
+	userRealm"cn.edu.nju.tourist.shiro.UserRealm°
+­
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java>d >(m/
+	userRealm"cn.edu.nju.tourist.shiro.UserRealm"__annotation*
+
+%3*
+
+%4*
+1*™
+
+1\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java?4 ?(SÏÌ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java?8 ?(Q8
+%02org.apache.shiro.web.mgt.DefaultWebSecurityManager"2org.apache.shiro.web.mgt.DefaultWebSecurityManagerá
+Þ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java?4 ?(S
+%1"<org.apache.shiro.web.mgt.DefaultWebSecurityManager#<init>()V*:
+8
+%02org.apache.shiro.web.mgt.DefaultWebSecurityManagerê
+ç
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java? ?(TE
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManager"__id*:
+8
+%02org.apache.shiro.web.mgt.DefaultWebSecurityManagerèå
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.javaA A(+
+
+%2void"Sorg.apache.shiro.mgt.RealmSecurityManager#setRealm(Lorg/apache/shiro/realm/Realm;)V*G
+E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManager*1
+/
+	userRealm"cn.edu.nju.tourist.shiro.UserRealm2(setRealm(Lorg/apache/shiro/realm/Realm;)"§
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.javaB B(G
+E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManager:/
+	userRealm"cn.edu.nju.tourist.shiro.UserRealmB(&
+$cn.edu.nju.tourist.shiro.ShiroConfig

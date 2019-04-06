@@ -1,0 +1,119 @@
+
+¨cn.edu.nju.tourist.shiro.ShiroConfig#getShiroFilterFactoryBean(Lorg/apache/shiro/web/mgt/DefaultWebSecurityManager;)Lorg/apache/shiro/spring/web/ShiroFilterFactoryBean;
+__unknown_file ("paramAnnotations*¯
+paramAnnotations]
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java; („î
+ë
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java (	
+%11"
+__annotate*/-
++org.springframework.context.annotation.Bean*G
+E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManagerù
+ö
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java< (Y
+%12"
+__annotate*:8
+6org.springframework.beans.factory.annotation.Qualifier*G
+E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManagerÉ
+Æ
+]
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.javat (ƒE
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManager"__annotation*
+
+%11*
+
+%12*
+1*‡
+1\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java8 (TÏÌ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java< (R8
+%02org.apache.shiro.spring.web.ShiroFilterFactoryBean"2org.apache.shiro.spring.web.ShiroFilterFactoryBeaná
+Þ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java8 (T
+%1"<org.apache.shiro.spring.web.ShiroFilterFactoryBean#<init>()V*:
+8
+%02org.apache.shiro.spring.web.ShiroFilterFactoryBeanñ
+î
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java (UL
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean"__id*:
+8
+%02org.apache.shiro.spring.web.ShiroFilterFactoryBean²¯
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java (B
+
+%2void"norg.apache.shiro.spring.web.ShiroFilterFactoryBean#setSecurityManager(Lorg/apache/shiro/mgt/SecurityManager;)V*N
+L
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean*G
+E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManager2:setSecurityManager(Lorg/apache/shiro/mgt/SecurityManager;)™–
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java$, $(;
+%3java.util.LinkedHashMap"java.util.LinkedHashMap«
+¨
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java$( $(=
+%4"!java.util.LinkedHashMap#<init>()V*
+
+%3java.util.LinkedHashMap¤
+¡
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java$ $(>
+	filterMapjava.util.Map"__id*
+
+%3java.util.LinkedHashMap¨¥
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java& &(,
+%5java.lang.String"Ijava.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*
+
+	filterMapjava.util.Map*
+
+/user/info*	
+authc2)put(Ljava/lang/Object;Ljava/lang/Object;)´±
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java) )(8
+%6java.lang.String"Ijava.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*
+
+	filterMapjava.util.Map*
+/user/getAll*
+perms[user:all]2)put(Ljava/lang/Object;Ljava/lang/Object;)¥¢
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java* *()
+%7java.lang.String"Ijava.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*
+
+	filterMapjava.util.Map*	
+/user/**	
+authc2)put(Ljava/lang/Object;Ljava/lang/Object;)ÍÊ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java. .(B
+
+%8void"Sorg.apache.shiro.spring.web.ShiroFilterFactoryBean#setLoginUrl(Ljava/lang/String;)V*N
+L
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean*
+/authority/authcFail2setLoginUrl(Ljava/lang/String;)ÙÖ
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java1 1(G
+
+%9void"Zorg.apache.shiro.spring.web.ShiroFilterFactoryBean#setUnauthorizedUrl(Ljava/lang/String;)V*N
+L
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean*
+/authority/noAuthc2&setUnauthorizedUrl(Ljava/lang/String;)ìé
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java3 3(E
+%10void"`org.apache.shiro.spring.web.ShiroFilterFactoryBean#setFilterChainDefinitionMap(Ljava/util/Map;)V*N
+L
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean*
+
+	filterMapjava.util.Map2,setFilterChainDefinitionMap(Ljava/util/Map;)"®
+\
+RD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\ShiroConfig.java6 6(&N
+L
+shiroFilterFactoryBean2org.apache.shiro.spring.web.ShiroFilterFactoryBean:E
+securityManager2org.apache.shiro.web.mgt.DefaultWebSecurityManagerB(&
+$cn.edu.nju.tourist.shiro.ShiroConfig

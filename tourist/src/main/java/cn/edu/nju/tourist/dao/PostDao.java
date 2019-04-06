@@ -7,7 +7,13 @@ import java.util.List;
 public interface PostDao {
     public void addPost(Post post);
 
-    List<Post> findRecnet();
+    List<Post> findRecent();
 
     Post findById(Integer id);
+
+    void deleteById(Integer id);
+
+    int findAllRecords();
+
+    List<Post> findAllPostsWithPage(int startIndex, int pageSize);
 }

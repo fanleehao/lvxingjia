@@ -606,7 +606,7 @@ Spring Boot里面没有Spring的配置文件，我们自己编写的配置文件
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="helloService" class="com.atguigu.springboot.service.HelloService"></bean>
+    <bean id="helloService" class="com.atguigu.springboot.cn.edu.nju.tourist.service.HelloService"></bean>
 </beans>
 ```
 
@@ -1643,8 +1643,8 @@ Simple expressions:（表达式语法）
 #execInfo : information about the template being processed.
 #messages : methods for obtaining externalized messages inside variables expressions, in the same way as they would be obtained using #{…} syntax.
 #uris : methods for escaping parts of URLs/URIs
-#conversions : methods for executing the configured conversion service (if any).
-#dates : methods for java.util.Date objects: formatting, component extraction, etc.
+cn.edu.nju.tourist.service
+#dates : methods for java.util.Date cn.edu.nju.tourist.service: formatting, component extraction, etc.
 #calendars : analogous to #dates , but for java.util.Calendar objects.
 #numbers : methods for formatting numeric objects.
 #strings : methods for String objects: contains, startsWith, prepending/appending, etc.
@@ -3331,8 +3331,7 @@ service network restart
 
 ​	7）、查看linux的ip地址
 
-```shell
-ip addr
+```shecn.edu.nju.tourist.serviceddr
 ```
 
 ​	8）、使用客户端连接linux；
@@ -3354,11 +3353,11 @@ Docker version 1.12.6, build 3e8e77d/1.12.6
 5、开机启动docker
 [root@localhost ~]# systemctl enable docker
 Created symlink from /etc/systemd/system/multi-user.target.wants/docker.service to /usr/lib/systemd/system/docker.service.
-6、停止docker
+6、停cn.edu.nju.tourist.service
 systemctl stop docker
 ```
 
-## 4、Docker常用命令&操作
+## 4、Docn.edu.nju.tourist.service令&操作
 
 ### 1）、镜像操作
 
@@ -3401,9 +3400,9 @@ docker start 容器id
 
 10、为了演示简单关闭了linux的防火墙
 service firewalld status ；查看防火墙状态
-service firewalld stop：关闭防火墙
+service firewalld stcn.edu.nju.tourist.service墙
 11、查看容器的日志
-docker logs container-name/container-id
+docker logs cocn.edu.nju.tourist.service-name/container-id
 
 更多命令参看
 https://docs.docker.com/engine/reference/commandline/docker/
@@ -4143,8 +4142,8 @@ public class HelloServiceAutoConfiguration {
     @Bean
     public HelloService helloService(){
         HelloService service = new HelloService();
-        service.setHelloProperties(helloProperties);
-        return service;
+        service.setHellocn.edu.nju.tourist.serviceies(helloProperties);
+        rcn.edu.nju.tourist.serviceervice;
     }
 }
 
@@ -4152,7 +4151,7 @@ public class HelloServiceAutoConfiguration {
 
 # 更多SpringBoot整合示例
 
-https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples
+https://gitcn.edu.nju.tourist.service/spring-projects/spring-boot/tree/master/spring-boot-samples
 
 
 

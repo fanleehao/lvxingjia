@@ -9,6 +9,7 @@ D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Authority
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\TouristApplication.java
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\PostServiceImpl.java
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java
+D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\PageModel.java
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\PostService.java
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java
 D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\UserController.java

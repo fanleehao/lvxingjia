@@ -1,0 +1,42 @@
+
+ccn.edu.nju.tourist.service.UserService#findByName(Ljava/lang/String;)Lcn/edu/nju/tourist/bean/User;
+__unknown_file ("paramAnnotations*π
+paramAnnotations^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java ('©
+¶
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (
+%2"
+__annotate*
+java.lang.Override*
+
+namejava.lang.Stringì
+ê
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java" (&
+namejava.lang.String"__annotation*
+
+%2*
+1*ó
+1^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (—
+Œ
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (*
+%0$cn.edu.nju.tourist.mapper.UserMapper"__id*:*8(
+&cn.edu.nju.tourist.service.UserService"
+
+userMapper‘—
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (*"
+%1cn.edu.nju.tourist.bean.User"acn.edu.nju.tourist.mapper.UserMapper#findByName(Ljava/lang/String;)Lcn/edu/nju/tourist/bean/User;*,
+*
+%0$cn.edu.nju.tourist.mapper.UserMapper*
+
+namejava.lang.String2findByName(Ljava/lang/String;)"Ü
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (+$
+"
+%1cn.edu.nju.tourist.bean.User:
+namejava.lang.StringB*(
+&cn.edu.nju.tourist.service.UserService

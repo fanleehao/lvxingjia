@@ -1,17 +1,16 @@
 
-:cn.edu.nju.tourist.bean.User#getBirthday()Ljava/util/Date;
-__unknown_file ("1*ñ
+@cn.edu.nju.tourist.bean.Post#getPost_last_edit()Ljava/util/Date;
+__unknown_file ("1*÷
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaM M(¥
-¢
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(«
+¨
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaM M(
-%0java.util.Date"__id*.*,
-cn.edu.nju.tourist.bean.User"
-
-birthday"n
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(
+%0java.util.Date"__id*4*2
+cn.edu.nju.tourist.bean.Post"
+post_last_edit"n
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaM M(
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(
 
 %0java.util.DateB 
-cn.edu.nju.tourist.bean.User
+cn.edu.nju.tourist.bean.Post

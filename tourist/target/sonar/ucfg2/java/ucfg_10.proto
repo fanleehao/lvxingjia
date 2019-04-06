@@ -1,16 +1,9 @@
 
-@cn.edu.nju.tourist.bean.Post#getPost_last_edit()Ljava/util/Date;
-__unknown_file ("1*÷
-1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(«
-¨
-T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(
-%0java.util.Date"__id*4*2
-cn.edu.nju.tourist.bean.Post"
-post_last_edit"n
-T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaC C(
-
-%0java.util.DateB 
-cn.edu.nju.tourist.bean.Post
+3cn.edu.nju.tourist.bean.PageModel#getNextPageNum()I
+__unknown_file ("1*Ã
+1Y
+OD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\PageModel.javae e("c
+Y
+OD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\PageModel.javae e(
+""B%#
+!cn.edu.nju.tourist.bean.PageModel

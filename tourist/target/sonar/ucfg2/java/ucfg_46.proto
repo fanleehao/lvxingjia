@@ -1,34 +1,17 @@
 
-ycn.edu.nju.tourist.controller.AuthorityController#authenticationFailure(Lorg/springframework/ui/Model;)Ljava/lang/String;
-__unknown_file ("paramAnnotations*˜
-paramAnnotationsi
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java=' =(4å
-â
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java< <(!
-%1"
-__annotate*:8
-6org.springframework.web.bind.annotation.RequestMapping*'
-%
-modelorg.springframework.ui.Model«
-¨
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java=. =(3%
-modelorg.springframework.ui.Model"__annotation*
-
-%1*
-1*
-1i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java> >(”‘
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java> >(2"
-%0org.springframework.ui.Model"morg.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;*'
-%
-modelorg.springframework.ui.Model*
-msg*+)
-'æ‚¨å°šæœªç™»å½•ï¼Œä¸èƒ½è®¿é—®è¯¥é¡µé¢22addAttribute(Ljava/lang/String;Ljava/lang/Object;)"z
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java? ?(
-	forbidden:%
-modelorg.springframework.ui.ModelB53
-1cn.edu.nju.tourist.controller.AuthorityController
+<cn.edu.nju.tourist.bean.User#getPassword()Ljava/lang/String;
+__unknown_file ("1*õ
+1T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java% %(§
+¤
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java% %(
+%0java.lang.String"__id*.*,
+cn.edu.nju.tourist.bean.User"
+
+password"p
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java% %(
+
+%0java.lang.StringB 
+cn.edu.nju.tourist.bean.User

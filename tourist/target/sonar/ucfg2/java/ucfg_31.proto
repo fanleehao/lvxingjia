@@ -1,9 +1,16 @@
 
-&cn.edu.nju.tourist.bean.User#getAge()I
-__unknown_file ("1*¹
+;cn.edu.nju.tourist.bean.Post#getPost_time()Ljava/util/Date;
+__unknown_file ("1*ò
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaE E("^
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java; ;(¦
+£
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaE E(
-""B 
-cn.edu.nju.tourist.bean.User
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java; ;(
+%0java.util.Date"__id*/*-
+cn.edu.nju.tourist.bean.Post"
+	post_time"n
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java; ;(
+
+%0java.util.DateB 
+cn.edu.nju.tourist.bean.Post

@@ -1,54 +1,16 @@
 
-fcn.edu.nju.tourist.controller.Postcontroller#addPost(Lcn/edu/nju/tourist/bean/Post;)Ljava/lang/String;
-__unknown_file ("paramAnnotations*Ñ
-paramAnnotationsd
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java ($‹
-Ÿ
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (
-%4"
-__annotate*75
-3org.springframework.web.bind.annotation.PostMapping*&
-$
-postcn.edu.nju.tourist.bean.Post•
-¢
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (#$
-postcn.edu.nju.tourist.bean.Post"__annotation*
-
-%4*
-1*¥	
-1d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (í
-è
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (
-%0java.io.PrintStream"__id*
-""âÜ
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java ( 
-
-%1void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
-
-%0java.io.PrintStream*&
-$
-postcn.edu.nju.tourist.bean.Post2println(Ljava/lang/Object;)‡
-›
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (,
-%2&cn.edu.nju.tourist.service.PostService"__id*A*?.
-,cn.edu.nju.tourist.controller.Postcontroller"
-postService«ƒ
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java (!
-
-%3void"Ocn.edu.nju.tourist.service.PostService#addPost(Lcn/edu/nju/tourist/bean/Post;)V*.
-,
-%2&cn.edu.nju.tourist.service.PostService*&
-$
-postcn.edu.nju.tourist.bean.Post2'addPost(Lcn/edu/nju/tourist/bean/Post;)"{
-d
-ZD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\Postcontroller.java! !(!
-redirect:/test2:$
-postcn.edu.nju.tourist.bean.PostB0.
-,cn.edu.nju.tourist.controller.Postcontroller
+9cn.edu.nju.tourist.bean.User#getPhone()Ljava/lang/String;
+__unknown_file ("1*Ú
+1T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(§
+°
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(
+%0java.lang.String"__id*+*)
+cn.edu.nju.tourist.bean.User"
+phone"p
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(
+
+%0java.lang.StringB 
+cn.edu.nju.tourist.bean.User

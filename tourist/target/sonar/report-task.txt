@@ -1,7 +1,7 @@
 organization=fanleehao-github
 projectKey=fanleehao_lvxingjia
 serverUrl=https://sonarcloud.io
-serverVersion=7.7.0.21605
+serverVersion=7.8.0.23279
 dashboardUrl=https://sonarcloud.io/dashboard?id=fanleehao_lvxingjia
-ceTaskId=AWiuqIwH2N1QTKZRZeD2
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWiuqIwH2N1QTKZRZeD2
+ceTaskId=AWnw3_ZDAeX8nbrg2tX9
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWnw3_ZDAeX8nbrg2tX9

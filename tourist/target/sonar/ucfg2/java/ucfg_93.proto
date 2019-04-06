@@ -1,0 +1,22 @@
+
+Dcn.edu.nju.tourist.service.UserService#getAllUsers()Ljava/util/List;
+__unknown_file ("1*®
+1^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (Ñ
+Î
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java (*
+%0$cn.edu.nju.tourist.mapper.UserMapper"__id*:*8(
+&cn.edu.nju.tourist.service.UserService"
+
+userMapperú÷
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java ('
+%1java.util.List"Bcn.edu.nju.tourist.mapper.UserMapper#getAllUsers()Ljava/util/List;*,
+*
+%0$cn.edu.nju.tourist.mapper.UserMapper2getAllUsers()"x
+^
+TD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\service\UserService.java ((
+
+%1java.util.ListB*(
+&cn.edu.nju.tourist.service.UserService

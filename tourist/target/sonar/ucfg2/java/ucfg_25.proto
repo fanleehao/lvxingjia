@@ -1,16 +1,9 @@
 
-:cn.edu.nju.tourist.bean.User#getGender()Ljava/lang/String;
-__unknown_file ("1*ó
+%cn.edu.nju.tourist.bean.Post#getId()I
+__unknown_file ("1*¹
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java- -(¥
-¢
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java# #("^
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java- -(
-%0java.lang.String"__id*,**
-cn.edu.nju.tourist.bean.User"
-gender"p
-T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java- -(
-
-%0java.lang.StringB 
-cn.edu.nju.tourist.bean.User
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java# #(
+""B 
+cn.edu.nju.tourist.bean.Post

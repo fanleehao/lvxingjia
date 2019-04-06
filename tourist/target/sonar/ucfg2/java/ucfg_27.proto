@@ -1,16 +1,17 @@
 
-9cn.edu.nju.tourist.bean.User#getEmail()Ljava/lang/String;
-__unknown_file ("1*ò
+>cn.edu.nju.tourist.bean.Post#getPost_title()Ljava/lang/String;
+__unknown_file ("1*÷
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java5 5(¤
-¡
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java+ +(©
+¦
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java5 5(
-%0java.lang.String"__id*+*)
-cn.edu.nju.tourist.bean.User"
-email"p
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java+ +(
+%0java.lang.String"__id*0*.
+cn.edu.nju.tourist.bean.Post"
+
+post_title"p
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java5 5(
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java+ +(
 
 %0java.lang.StringB 
-cn.edu.nju.tourist.bean.User
+cn.edu.nju.tourist.bean.Post

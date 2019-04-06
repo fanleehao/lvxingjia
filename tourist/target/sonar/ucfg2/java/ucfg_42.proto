@@ -1,151 +1,9 @@
 
-écn.edu.nju.tourist.controller.AuthorityController#signIn(Ljava/lang/String;Ljava/lang/String;Lorg/springframework/ui/Model;)Ljava/lang/String;
-__unknown_file ("paramAnnotations*
-4i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (˙˜
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (-#
-%12org.springframework.ui.Model"morg.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;*'
-%
-modelorg.springframework.ui.Model*
-msg*
-ÁôªÂΩïÊàêÂäü22addAttribute(Ljava/lang/String;Ljava/lang/Object;)*
-1*Â
-5i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (ÔÏ
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java ( 
-%11void"Uorg.apache.shiro.subject.Subject#login(Lorg/apache/shiro/authc/AuthenticationToken;)V*-
-+
-subject org.apache.shiro.subject.Subject*7
-5
-token,org.apache.shiro.authc.UsernamePasswordToken23login(Lorg/apache/shiro/authc/AuthenticationToken;)*
-4*£
-6i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (ó
-î
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (
-%0java.io.PrintStream"__id*
-""∫
-∑
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (,
-%1java.lang.String"__concat*
-
---------*
-
-namejava.lang.StringÄ˝
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (-
-
-%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%0java.io.PrintStream*
-
-%1java.lang.String2println(Ljava/lang/String;)â
-Ü
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (4&
-%3 org.apache.shiro.subject.Subject"Morg.apache.shiro.SecurityUtils#getSubject()Lorg/apache/shiro/subject/Subject;*"" 
-org.apache.shiro.SecurityUtilsÀ
-»
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (5+
-subject org.apache.shiro.subject.Subject"__id*(
-&
-%3 org.apache.shiro.subject.Subject–Õ
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java* (?2
-%4,org.apache.shiro.authc.UsernamePasswordToken",org.apache.shiro.authc.UsernamePasswordToken¬
-ø
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java& (O
-%5"Zorg.apache.shiro.authc.UsernamePasswordToken#<init>(Ljava/lang/String;Ljava/lang/String;)V*4
-2
-%4,org.apache.shiro.authc.UsernamePasswordToken*
-
-namejava.lang.String*
-
-passwordjava.lang.String·
-ﬁ
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (P5
-token,org.apache.shiro.authc.UsernamePasswordToken"__id*4
-2
-%4,org.apache.shiro.authc.UsernamePasswordToken*
-5*‡
-paramAnnotationsi
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (sÿ
-’
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (
-%6"
-__annotate*:8
-6org.springframework.web.bind.annotation.RequestMapping*
-
-namejava.lang.String÷
-”
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (.
-%7"
-__annotate*86
-4org.springframework.web.bind.annotation.RequestParam*
-
-namejava.lang.String¶
-£
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java6 (:
-namejava.lang.String"__annotation*
-
-%6*
-
-%7‹
-Ÿ
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (
-%8"
-__annotate*:8
-6org.springframework.web.bind.annotation.RequestMapping*
-
-passwordjava.lang.String⁄
-◊
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java< (U
-%9"
-__annotate*86
-4org.springframework.web.bind.annotation.RequestParam*
-
-passwordjava.lang.String™
-ß
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java] (e
-passwordjava.lang.String"__annotation*
-
-%8*
-
-%9Ê
-„
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java (
-%10"
-__annotate*:8
-6org.springframework.web.bind.annotation.RequestMapping*'
-%
-modelorg.springframework.ui.Model¨
-©
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.javam (r%
-modelorg.springframework.ui.Model"__annotation*
-
-%10*
-6*Ë
-1i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java% %("x
-i
-_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java% %(	
-success:
-namejava.lang.String:
-passwordjava.lang.String:%
-modelorg.springframework.ui.ModelB53
-1cn.edu.nju.tourist.controller.AuthorityController
+)cn.edu.nju.tourist.bean.User#getUserId()I
+__unknown_file ("1*π
+1T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java ("^
+T
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java (
+""B 
+cn.edu.nju.tourist.bean.User

@@ -1,16 +1,16 @@
 
-9cn.edu.nju.tourist.bean.User#getPhone()Ljava/lang/String;
-__unknown_file ("1*ò
+@cn.edu.nju.tourist.bean.Post#getPost_context()Ljava/lang/String;
+__unknown_file ("1*ù
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(¤
-¡
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java3 3(«
+¨
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(
-%0java.lang.String"__id*+*)
-cn.edu.nju.tourist.bean.User"
-phone"p
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java3 3(
+%0java.lang.String"__id*2*0
+cn.edu.nju.tourist.bean.Post"
+post_context"p
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.java= =(
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.java3 3(
 
 %0java.lang.StringB 
-cn.edu.nju.tourist.bean.User
+cn.edu.nju.tourist.bean.Post

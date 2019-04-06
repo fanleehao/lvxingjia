@@ -1,39 +1,34 @@
 
-ìcn.edu.nju.tourist.shiro.UserRealm#doGetAuthorizationInfo(Lorg/apache/shiro/subject/PrincipalCollection;)Lorg/apache/shiro/authz/AuthorizationInfo;
-__unknown_file ("paramAnnotations*É
-paramAnnotationsZ
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java6 (_–
-Õ
-Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
-%2"
-__annotate*
-java.lang.Override*E
-C
-principalCollection,org.apache.shiro.subject.PrincipalCollection∫
-∑
-Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.javaK (^C
-principalCollection,org.apache.shiro.subject.PrincipalCollection"__annotation*
+ycn.edu.nju.tourist.controller.AuthorityController#authenticationFailure(Lorg/springframework/ui/Model;)Ljava/lang/String;
+__unknown_file ("paramAnnotations*ò
+paramAnnotationsi
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java=' =(4Â
+‚
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java< <(!
+%1"
+__annotate*:8
+6org.springframework.web.bind.annotation.RequestMapping*'
+%
+modelorg.springframework.ui.Model´
+®
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java=. =(3%
+modelorg.springframework.ui.Model"__annotation*
 
-%2*
-1*¬
-1Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (à
-Ö
-Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
-%0java.io.PrintStream"__id*
-""ÔÏ
-Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java ($
-
-%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
-
-%0java.io.PrintStream*
-ÊâßË°åÊéàÊùÉÈÄªËæë2println(Ljava/lang/String;)"d
-Z
-PD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\shiro\UserRealm.java (
-"":C
-principalCollection,org.apache.shiro.subject.PrincipalCollectionB&$
-"cn.edu.nju.tourist.shiro.UserRealm
+%1*
+1*Å
+1i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java> >(îë
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java> >(2"
+%0org.springframework.ui.Model"morg.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;*'
+%
+modelorg.springframework.ui.Model*
+msg*+)
+'ÊÇ®Â∞öÊú™ÁôªÂΩïÔºå‰∏çËÉΩËÆøÈóÆËØ•È°µÈù¢22addAttribute(Ljava/lang/String;Ljava/lang/Object;)"z
+i
+_D:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\controller\AuthorityController.java? ?(
+	forbidden:%
+modelorg.springframework.ui.ModelB53
+1cn.edu.nju.tourist.controller.AuthorityController

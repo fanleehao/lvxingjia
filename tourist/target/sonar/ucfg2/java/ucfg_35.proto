@@ -1,16 +1,16 @@
 
->cn.edu.nju.tourist.bean.User#getRegisterTime()Ljava/util/Date;
-__unknown_file ("1*õ
+?cn.edu.nju.tourist.bean.Post#getPost_images()Ljava/lang/String;
+__unknown_file ("1*ø
 1T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaU U(©
-¦
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaK K(ª
+§
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaU U(
-%0java.util.Date"__id*2*0
-cn.edu.nju.tourist.bean.User"
-registerTime"n
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaK K(
+%0java.lang.String"__id*1*/
+cn.edu.nju.tourist.bean.Post"
+post_images"p
 T
-JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\User.javaU U(
-
-%0java.util.DateB 
-cn.edu.nju.tourist.bean.User
+JD:\myGit\lvxingjia\tourist\src\main\java\cn\edu\nju\tourist\bean\Post.javaK K(
+
+%0java.lang.StringB 
+cn.edu.nju.tourist.bean.Post

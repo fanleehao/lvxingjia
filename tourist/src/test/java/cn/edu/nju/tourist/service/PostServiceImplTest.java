@@ -37,7 +37,7 @@ public class PostServiceImplTest {
 //        System.out.println(curDate);
 //        post.setId(13);
         post.setPost_title("你好，霓虹！");
-        postService.addPost(post);
+//        postService.addPost(post);
     }
 
     @Test
